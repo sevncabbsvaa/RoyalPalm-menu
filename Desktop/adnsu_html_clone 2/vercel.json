@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/login",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/accounts/magic",
+      "destination": "/accounts/magic/index.html"
+    },
+    {
+      "source": "/login",
+      "destination": "/login/index.html"
+    }
+  ]
+}

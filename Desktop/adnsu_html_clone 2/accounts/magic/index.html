@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ASOIU LMS</title>
+  <link rel="icon" href="../../assets/logo.png">
+  <link rel="stylesheet" href="../../login/styles.css">
+</head>
+<body class="magic-page" data-page="magic" data-default-lang="en">
+  <div class="page-shell">
+    <div class="language-selector">
+      <div class="lang-dropdown" id="langDropdown">
+        <button class="lang-button" id="langButton" type="button" aria-label="Language" aria-expanded="false">
+          <span class="lang-mobile-label">Language:</span>
+          <img id="currentLangFlag" src="../../assets/flag-en.png" alt="English flag">
+          <span class="lang-current-name">English</span>
+          <span class="lang-mobile-caret">▼</span>
+        </button>
+
+        <div class="lang-menu" id="langMenu" role="menu">
+          <button class="lang-option active" type="button" data-lang="en" role="menuitem">
+            <img src="../../assets/flag-en.png" alt="English flag">
+            <span>English</span>
+          </button>
+          <button class="lang-option" type="button" data-lang="az" role="menuitem">
+            <img src="../../assets/flag-az.png" alt="Azərbaycan flag">
+            <span>Azərbaycan</span>
+          </button>
+          <button class="lang-option" type="button" data-lang="ru" role="menuitem">
+            <img src="../../assets/flag-ru.png" alt="Русский flag">
+            <span>Русский</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main class="magic-layout">
+      <form class="magic-card" id="magicForm" autocomplete="off">
+        <div class="logo-wrap magic-logo-wrap">
+          <img class="magic-logo" src="../../assets/logo.png" alt="ADNSU logo">
+        </div>
+
+        <h1 class="magic-title" data-i18n="title">One-Time Login Link</h1>
+        <p class="magic-subtitle" data-i18n="subtitle">Enter your email to receive a secure, one-time login link.</p>
+
+        <div class="magic-field">
+          <label class="magic-label" for="magicEmail" data-i18n="emailLabel">Email for Magic Link</label>
+          <input class="magic-input" id="magicEmail" name="email" type="email" placeholder="user@example.com" autocomplete="email">
+        </div>
+
+        <button class="magic-primary" type="submit" data-i18n="send">Send one-time link</button>
+      </form>
+    </main>
+
+    <div class="recaptcha-badge open-recartcha" aria-hidden="true"> 
+      <img class="recaptcha-collapsed" src="../../assets/recaptcha-collapsed.png" alt="reCAPTCHA">
+    </div>
+  </div>
+
+  <script src="../../login/script.js"></script>
+</body>
+</html>
