@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <span className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gold-500/30 bg-gold-500/5 md:mx-0">
               <img
-                src="/images/logo-white.png"
+                src="/images/logo-dark.png"
                 alt="Royal Palm logo"
                 className="h-12 w-12 object-contain"
               />
@@ -47,10 +47,10 @@ export default function Footer() {
             </p>
 
             <a
-              href="tel:+994000000000"
+              href="tel:+994772777480"
               className="font-serif text-2xl text-cream-200 transition hover:text-gold-400"
             >
-              +994 00 000 00 00
+              +994 77 277 74 80
             </a>
           </div>
 

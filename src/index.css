@@ -4,25 +4,28 @@
   --font-serif: "Playfair Display", Georgia, serif;
   --font-sans: "Jost", system-ui, sans-serif;
 
-  --color-palm-950: #0c241b;
-  --color-palm-900: #0f2a20;
-  --color-palm-850: #123026;
-  --color-palm-800: #14342b;
-  --color-palm-700: #1b4233;
-  --color-palm-600: #235040;
-  --color-gold-400: #d4af6a;
-  --color-gold-500: #c9a84c;
-  --color-gold-600: #b8924a;
-  --color-cream-100: #f3ead2;
-  --color-cream-200: #f0e6c8;
-  --color-cream-300: #e8dcc0;
-  --color-sage-300: #9db39a;
-  --color-sage-400: #7d9279;
+  --color-palm-950: #d4dbc9;  
+  --color-palm-900: #c8d1bb;  
+  --color-palm-850: #dde3d3;  
+  --color-palm-800: #b8c3a8;  
+  --color-palm-700: #b2bda1;  
+  --color-palm-600: #a3b090;  
+
+  --color-gold-400: #a8842f;
+  --color-gold-500: #98782a;
+  --color-gold-600: #836826;
+
+  --color-cream-100: #1c3326;
+  --color-cream-200: #233a2c;
+  --color-cream-300: #2e4636;
+
+  --color-sage-300: #54624d;
+  --color-sage-400: #62705a;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: #0f2a20;
+  background-color: #c8d1bb;
 }
 
 body {

@@ -27,7 +27,6 @@ export default function CategoryNav({
     const container = scrollContainerRef.current;
 
     if (activeButton && container) {
-      // yalnız üfüqi sürüşmə — səhifənin şaquli scroll-una toxunmuruq
       const target =
         activeButton.offsetLeft -
         container.clientWidth / 2 +

@@ -5,7 +5,6 @@ import { menuData } from "./data/menuData";
 import SplashScreen from "./Components/SplashScreen/SplashScreen";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import PalmMotif from "./Components/PalmMotif/PalmMotif";
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -74,16 +73,16 @@ export default function App() {
         <SplashScreen onFinish={() => setShowSplash(false)} />
       )}
 
-      {/* arxa fon palma motivləri — scroll axınına təsir etməyən sabit qat */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none fixed inset-0 -z-10 overflow-hidden"
-      >
-        <PalmMotif className="absolute -right-32 top-40 h-[34rem] w-[34rem] text-gold-500/[0.04]" />
-        <PalmMotif className="absolute -left-40 bottom-40 h-[40rem] w-[40rem] -scale-x-100 text-gold-500/[0.035]" />
+      <div aria-hidden="true" className="pointer-events-none fixed inset-0 -z-10">
+        <img
+          src="/images/palm-bg.jpg"
+          alt=""
+          className="h-full w-full object-cover opacity-70"
+        />
+        <div className="absolute inset-0 bg-palm-900/55" />
       </div>
 
-      <div className="relative min-h-screen bg-palm-900 text-cream-200">
+      <div className="relative min-h-screen  text-cream-200">
         <CategoryNav
           categories={categories}
           activeCategory={activeCategory}

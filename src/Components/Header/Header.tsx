@@ -18,7 +18,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <span className="flex h-12 w-12 items-center justify-center rounded-full border border-gold-500/35 bg-gold-500/5">
             <img
-              src="/images/logo-white.png"
+              src="/images/logo-dark.png"
               alt="Royal Palm logo"
               className="h-8 w-8 object-contain"
             />

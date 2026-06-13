@@ -37,7 +37,6 @@ export default function SplashScreen({ onFinish }: SplashScreenProps) {
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(201,168,76,0.16),transparent_42%)]" />
 
-      {/* arxa fon palma motivləri */}
       <PalmMotif
         className={`pointer-events-none absolute -left-24 -top-20 h-[28rem] w-[28rem] text-gold-500/[0.07] transition-all duration-[1400ms] ${
           showContent ? "opacity-100" : "opacity-0"
@@ -59,7 +58,7 @@ export default function SplashScreen({ onFinish }: SplashScreenProps) {
             }`}
           >
             <img
-              src="/images/logo-white.png"
+              src="/images/logo-dark.png"
               alt="Royal Palm logo"
               className="h-16 w-16 object-contain opacity-95 sm:h-20 sm:w-20"
             />

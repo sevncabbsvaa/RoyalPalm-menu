@@ -2,7 +2,6 @@ type PalmMotifProps = {
   className?: string;
 };
 
-// Dekorativ palma yarpağı motivi (arxa fon üçün)
 export default function PalmMotif({ className = "" }: PalmMotifProps) {
   return (
     <svg
