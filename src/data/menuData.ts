@@ -162,7 +162,7 @@ export const menuData: MenuCategory[] = [
     titleKey: "categories.garnishes",
     items: [
       { id: 91, nameKey: "menu.garnishes.rice.name", image: "images/rice.jpg", descriptionKey: "menu.garnishes.rice.description", price: 4 },
-      { id: 92, nameKey: "menu.garnishes.homeFries.name", image: "images/potatos.jpg", descriptionKey: "menu.garnishes.homeFries.description", price: 5 },
+      { id: 92, nameKey: "menu.garnishes.homeFries.name", image: "images/potatos.jpeg", descriptionKey: "menu.garnishes.homeFries.description", price: 5 },
       { id: 93, nameKey: "menu.garnishes.fries.name", image: "images/fires.jpg", descriptionKey: "menu.garnishes.fries.description", price: 6 },
       { id: 94, nameKey: "menu.garnishes.buckwheat.name", image: "images/Buckwheat.jpg", descriptionKey: "menu.garnishes.buckwheat.description", price: 4 },
       { id: 95, nameKey: "menu.garnishes.boiledVeg.name", image: "images/grilled-vegetables.jpg", descriptionKey: "menu.garnishes.boiledVeg.description", price: 6 },
