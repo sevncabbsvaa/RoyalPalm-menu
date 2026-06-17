@@ -132,7 +132,7 @@ export const menuData: MenuCategory[] = [
     titleKey: "categories.kebabs",
     items: [
       { id: 73, nameKey: "menu.kebabs.whitefishGrid.name", image: "images/White-fish.jpg", descriptionKey: "menu.kebabs.whitefishGrid.description", price: 24 },
-      { id: 74, nameKey: "menu.kebabs.antrikot.name", image: "images/Entrecôte-kebab.jpg", descriptionKey: "menu.kebabs.antrikot.description", price: 14 },
+      { id: 74, nameKey: "menu.kebabs.antrikot.name", image: "images/antrikot-kabab.png", descriptionKey: "menu.kebabs.antrikot.description", price: 14 },
       { id: 75, nameKey: "menu.kebabs.beefBasdirma.name", image: "images/Beef basdirma.jpg", descriptionKey: "menu.kebabs.beefBasdirma.description", price: 15 },
       { id: 76, nameKey: "menu.kebabs.potatoEmber.name", image: "images/potatos.jpg", descriptionKey: "menu.kebabs.potatoEmber.description", price: 6 },
       { id: 77, nameKey: "menu.kebabs.potatoLule.name", image: "images/potatoLule.jpg", descriptionKey: "menu.kebabs.potatoLule.description", price: 6 },
