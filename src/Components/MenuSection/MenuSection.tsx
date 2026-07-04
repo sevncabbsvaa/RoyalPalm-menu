@@ -1,36 +1,61 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import FoodCard from "../Cards/FoodCard";
-import type { MenuCategory } from "../../types/menu";
+import type { MenuSectionData, Language } from "../../types/menu";
 
 type MenuSectionProps = {
-  category: MenuCategory;
+  section: MenuSectionData;
   sectionRef?: (element: HTMLElement | null) => void;
 };
 
-export default function MenuSection({
-  category,
-  sectionRef,
-}: MenuSectionProps) {
-  const { t } = useTranslation();
+export default function MenuSection({ section, sectionRef }: MenuSectionProps) {
+  const { t, i18n } = useTranslation();
+  const [isZoomed, setIsZoomed] = useState(false);
+
+  const currentLanguage = (i18n.language?.split("-")[0] || "az") as Language;
+  const imageSrc = section.images[currentLanguage] ?? section.images.az;
 
   return (
     <section
-      id={category.key}
+      id={section.key}
       ref={sectionRef}
       className="scroll-mt-28 space-y-7 sm:space-y-9"
     >
-      <div className="flex items-center gap-5">
+      <div className="flex flex-wrap items-center gap-5">
         <h2 className="font-serif text-3xl text-cream-200 sm:text-4xl">
-          {t(category.titleKey)}
+          {t(section.titleKey)}
         </h2>
         <span className="h-px flex-1 bg-gradient-to-r from-gold-500/50 to-transparent" />
       </div>
 
-      <div className="grid grid-cols-1 gap-y-5 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-3 xl:grid-cols-4">
-        {category.items.map((item) => (
-          <FoodCard key={item.id} item={item} />
-        ))}
-      </div>
+      <button
+        type="button"
+        onClick={() => setIsZoomed(true)}
+        className="block w-full overflow-hidden rounded-2xl border border-gold-500/20 bg-palm-800/40 shadow-lg transition hover:border-gold-500/40"
+        aria-label={t(section.titleKey)}
+      >
+        <img
+          src={imageSrc}
+          alt={t(section.titleKey)}
+          className="w-full object-contain"
+          loading="lazy"
+        />
+      </button>
+
+      {isZoomed && (
+        <div
+          className="fixed inset-0 z-999 flex items-center justify-center bg-black/90 p-4"
+          onClick={() => setIsZoomed(false)}
+          role="button"
+          tabIndex={0}
+          aria-label="Bağla"
+        >
+          <img
+            src={imageSrc}
+            alt={t(section.titleKey)}
+            className="max-h-full max-w-full object-contain"
+          />
+        </div>
+      )}
     </section>
   );
 }

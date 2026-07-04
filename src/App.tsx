@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import CategoryNav from "./Components/CategoryNav/CategoryNav";
 import MenuSection from "./Components/MenuSection/MenuSection";
-import { menuData } from "./data/menuData";
+import { menuSections } from "./data/menuSections";
 import SplashScreen from "./Components/SplashScreen/SplashScreen";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
@@ -11,9 +11,9 @@ export default function App() {
 
   const categories = useMemo(
     () =>
-      menuData.map((category) => ({
-        key: category.key,
-        titleKey: category.titleKey,
+      menuSections.map((section) => ({
+        key: section.key,
+        titleKey: section.titleKey,
       })),
     []
   );
@@ -43,12 +43,12 @@ export default function App() {
 
       let currentCategory = categories[0]?.key || "";
 
-      for (const category of menuData) {
-        const section = sectionRefs.current[category.key];
-        if (!section) continue;
+      for (const section of menuSections) {
+        const el = sectionRefs.current[section.key];
+        if (!el) continue;
 
-        if (section.offsetTop <= currentScroll) {
-          currentCategory = category.key;
+        if (el.offsetTop <= currentScroll) {
+          currentCategory = section.key;
         }
       }
 
@@ -91,12 +91,12 @@ export default function App() {
 
         <main className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
           <div className="space-y-24">
-            {menuData.map((category) => (
+            {menuSections.map((section) => (
               <MenuSection
-                key={category.key}
-                category={category}
+                key={section.key}
+                section={section}
                 sectionRef={(element) => {
-                  sectionRefs.current[category.key] = element;
+                  sectionRefs.current[section.key] = element;
                 }}
               />
             ))}
