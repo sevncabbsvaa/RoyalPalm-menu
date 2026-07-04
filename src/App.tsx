@@ -18,7 +18,7 @@ export default function App() {
     []
   );
 
-const [activeCategory, setActiveCategory] = useState<string>(categories[0]?.key || "");
+  const [activeCategory, setActiveCategory] = useState<string>(categories[0]?.key || "");
   const sectionRefs = useRef<Record<string, HTMLElement | null>>({});
 
   const handleCategoryClick = (categoryKey: string) => {

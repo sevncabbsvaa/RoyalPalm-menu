@@ -6,11 +6,11 @@
   },
   "footer": {
     "hoursLabel": "Opening hours",
-    "hoursValue": "10:00 AM – 12:00 AM",
+    "hoursValue": "9:00 AM – 12:00 AM",
     "phoneLabel": "Phone",
     "addressLabel": "Address",
-    "addressLine1": "Baku",
-    "addressLine2": "Azerbaijan",
+    "addressLine1": "Baku, Sabail district",
+    "addressLine2": "Shikhov settlement",
     "serviceNote": "Contact us for reservations"
   },
   "sections": {

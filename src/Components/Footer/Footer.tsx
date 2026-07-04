@@ -11,8 +11,8 @@ export default function Footer() {
 
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-14 md:grid-cols-4 md:items-start">
-          <div className="text-center md:text-left">
-            <span className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gold-500/30 bg-gold-500/5 md:mx-0">
+          <div className="text-center">
+            <span className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-gold-500/30 bg-gold-500/5">
               <img
                 src="/images/logo-dark.png"
                 alt="Royal Palm logo"
@@ -24,9 +24,9 @@ export default function Footer() {
               {t("brand.name")}
             </h3>
 
-            <div className="mx-auto mt-3 h-px w-14 bg-gold-500 md:mx-0" />
+            <div className="mx-auto mt-3 h-px w-14 bg-gold-500" />
 
-            <p className="mt-4 max-w-xs text-sm leading-6 text-sage-300">
+            <p className="mx-auto mt-4 max-w-xs text-sm leading-6 text-sage-300">
               {t("brand.description")}
             </p>
           </div>

@@ -6,11 +6,11 @@
   },
   "footer": {
     "hoursLabel": "İş saatları",
-    "hoursValue": "10:00 – 24:00",
+    "hoursValue": "09:00 – 00:00",
     "phoneLabel": "Telefon",
     "addressLabel": "Ünvan",
-    "addressLine1": "Bakı şəhəri",
-    "addressLine2": "Azərbaycan",
+    "addressLine1": "Bakı şəhəri, Səbail rayonu",
+    "addressLine2": "Şıxov qəsəbəsi",
     "serviceNote": "Rezervasiya üçün bizimlə əlaqə saxlayın"
   },
   "sections": {

@@ -6,11 +6,11 @@
   },
   "footer": {
     "hoursLabel": "Часы работы",
-    "hoursValue": "10:00 – 24:00",
+    "hoursValue": "09:00 – 00:00",
     "phoneLabel": "Телефон",
     "addressLabel": "Адрес",
-    "addressLine1": "город Баку",
-    "addressLine2": "Азербайджан",
+    "addressLine1": "город Баку, Сабаильский район",
+    "addressLine2": "посёлок Шихово",
     "serviceNote": "Свяжитесь с нами для бронирования"
   },
   "sections": {
