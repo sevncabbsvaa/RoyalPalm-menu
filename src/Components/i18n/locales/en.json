@@ -493,11 +493,11 @@
   },
   "menuSwitch": {
     "alacarte": "Main Menu",
-    "banquet": "Banquet Menu"
+    "banquet": "Show Program Menu"
   },
   "sections": {
     "banquet": {
-      "title": "Banquet Menu"
+      "title": "Show Program Menu"
     },
     "kids": {
       "title": "Kids Menu"
