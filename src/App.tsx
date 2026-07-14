@@ -1,25 +1,49 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import CategoryNav from "./Components/CategoryNav/CategoryNav";
 import MenuSection from "./Components/MenuSection/MenuSection";
-import { menuSections } from "./data/menuSections";
+import BanquetSection from "./Components/BanquetSection/BanquetSection";
+import MenuModeSwitch from "./Components/MenuModeSwitch/MenuModeSwitch";
+import { menuData } from "./data/menuData";
+import { banquetSections } from "./data/banquetSections";
 import SplashScreen from "./Components/SplashScreen/SplashScreen";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import type { MenuMode } from "./types/menu";
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
+  const [mode, setMode] = useState<MenuMode>("alacarte");
 
   const categories = useMemo(
     () =>
-      menuSections.map((section) => ({
-        key: section.key,
-        titleKey: section.titleKey,
-      })),
-    []
+      mode === "alacarte"
+        ? menuData.map((category) => ({
+            key: category.key,
+            titleKey: category.titleKey,
+          }))
+        : banquetSections.map((section) => ({
+            key: section.key,
+            titleKey: section.titleKey,
+          })),
+    [mode]
   );
 
-  const [activeCategory, setActiveCategory] = useState<string>(categories[0]?.key || "");
+  const [activeCategory, setActiveCategory] = useState(
+    categories[0]?.key || ""
+  );
   const sectionRefs = useRef<Record<string, HTMLElement | null>>({});
+
+  const handleModeChange = (nextMode: MenuMode) => {
+    if (nextMode === mode) return;
+
+    sectionRefs.current = {};
+    setMode(nextMode);
+    window.scrollTo({ top: 0, behavior: "auto" });
+  };
+
+  useEffect(() => {
+    setActiveCategory(categories[0]?.key || "");
+  }, [categories]);
 
   const handleCategoryClick = (categoryKey: string) => {
     setActiveCategory(categoryKey);
@@ -43,12 +67,12 @@ export default function App() {
 
       let currentCategory = categories[0]?.key || "";
 
-      for (const section of menuSections) {
-        const el = sectionRefs.current[section.key];
-        if (!el) continue;
+      for (const category of categories) {
+        const section = sectionRefs.current[category.key];
+        if (!section) continue;
 
-        if (el.offsetTop <= currentScroll) {
-          currentCategory = section.key;
+        if (section.offsetTop <= currentScroll) {
+          currentCategory = category.key;
         }
       }
 
@@ -69,9 +93,7 @@ export default function App() {
     <>
       <Header />
 
-      {showSplash && (
-        <SplashScreen onFinish={() => setShowSplash(false)} />
-      )}
+      {showSplash && <SplashScreen onFinish={() => setShowSplash(false)} />}
 
       <div aria-hidden="true" className="pointer-events-none fixed inset-0 -z-10">
         <img
@@ -83,6 +105,8 @@ export default function App() {
       </div>
 
       <div className="relative min-h-screen  text-cream-200">
+        <MenuModeSwitch mode={mode} onModeChange={handleModeChange} />
+
         <CategoryNav
           categories={categories}
           activeCategory={activeCategory}
@@ -91,15 +115,25 @@ export default function App() {
 
         <main className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
           <div className="space-y-24">
-            {menuSections.map((section) => (
-              <MenuSection
-                key={section.key}
-                section={section}
-                sectionRef={(element) => {
-                  sectionRefs.current[section.key] = element;
-                }}
-              />
-            ))}
+            {mode === "alacarte"
+              ? menuData.map((category) => (
+                  <MenuSection
+                    key={category.key}
+                    category={category}
+                    sectionRef={(element) => {
+                      sectionRefs.current[category.key] = element;
+                    }}
+                  />
+                ))
+              : banquetSections.map((section) => (
+                  <BanquetSection
+                    key={section.key}
+                    section={section}
+                    sectionRef={(element) => {
+                      sectionRefs.current[section.key] = element;
+                    }}
+                  />
+                ))}
           </div>
         </main>
       </div>

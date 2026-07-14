@@ -1,8 +1,8 @@
 {
   "brand": {
     "name": "Royal Palm",
-    "tagline": "Restoran",
-    "description": "Bakının qəlbində zərif atmosfer və zəngin mətbəx təcrübəsi."
+    "tagline": "Restaurant",
+    "description": "Şərq və Aralıq dənizi ləzzətlərini incə təqdimatla birləşdirən royal dad təcrübəsi."
   },
   "footer": {
     "hoursLabel": "İş saatları",
@@ -12,6 +12,488 @@
     "addressLine1": "Bakı şəhəri, Səbail rayonu",
     "addressLine2": "Şıxov qəsəbəsi",
     "serviceNote": "Rezervasiya üçün bizimlə əlaqə saxlayın"
+  },
+  "common": {
+    "noImage": "Şəkil yoxdur",
+    "descriptionFallback": "Tərkib məlumatı tezliklə əlavə olunacaq."
+  },
+  "categories": {
+    "soups": "Şorbalar",
+    "salads": "Salatlar",
+    "coldAppetizers": "Soyuq qəlyanaltılar",
+    "hotAppetizers": "İsti qəlyanaltılar",
+    "fish": "Balıqlar",
+    "pasta": "Pastalar",
+    "hotMeals": "İsti yeməklər",
+    "saj": "Sac yeməkləri",
+    "plov": "Plovlar",
+    "kebabs": "Kabablar",
+    "tandir": "Təndir yeməkləri",
+    "garnishes": "Qarnirlər",
+    "sauces": "Souslar və məzələr",
+    "extras": "Əlavələr"
+  },
+  "menu": {
+    "soups": {
+      "ushbere": {
+        "name": "Düşbərə şorba",
+        "description": "Xəmir içində ətli düşbərə ilə hazırlanır."
+      },
+      "mushroom": {
+        "name": "Göbələk şorbası",
+        "description": "Təzə göbələklərlə hazırlanmış şorba."
+      },
+      "lentil": {
+        "name": "Mərci şorbası",
+        "description": "Ənənəvi mərci şorbası."
+      },
+      "chicken": {
+        "name": "Toyuq şorbası",
+        "description": "Toyuq əti ilə hazırlanmış klassik şorba."
+      }
+    },
+    "salads": {
+      "bakuTomato": {
+        "name": "Bakı pomidor salatı",
+        "description": "Təzə Bakı pomidorları ilə salat."
+      },
+      "shepherd": {
+        "name": "Çoban salatı",
+        "description": "Doğranmış təzə tərəvəzlərlə hazırlanır."
+      },
+      "tongue": {
+        "name": "Dil salatı pikant sousunda",
+        "description": "Pikant sousda dil salatı."
+      },
+      "rukola": {
+        "name": "Ət salatı rukola",
+        "description": "Rukola yarpaqları ilə ət salatı."
+      },
+      "gavurdagi": {
+        "name": "Gavurdağ salatı",
+        "description": "Közlənmiş tərəvəzlərlə Gavurdağ salatı."
+      },
+      "crispyEggplant": {
+        "name": "Xırt-xırt badımcan salatı",
+        "description": "Xırt-xırt badımcanla hazırlanan salat."
+      },
+      "caesarShrimp": {
+        "name": "Klassik sezar salatı (krevetka)",
+        "description": "Krevetkalı klassik Sezar salatı."
+      },
+      "caesarChicken": {
+        "name": "Klassik sezar salatı (toyuq)",
+        "description": "Toyuq ətli klassik Sezar salatı."
+      },
+      "blackPlum": {
+        "name": "Qara gavalı salatı",
+        "description": "Qara gavalı ilə fərqli salat."
+      },
+      "grill": {
+        "name": "Manqal salatı",
+        "description": "Manqalda bişmiş tərəvəzlərlə hazırlanır."
+      },
+      "mimosa": {
+        "name": "Mimoza salatı",
+        "description": "Klassik Mimoza salatı."
+      },
+      "chefSpecial": {
+        "name": "Özəl salat (baş aşpaz tərəfindən)",
+        "description": "Baş aşpazın özəl salatı."
+      },
+      "capital": {
+        "name": "Paytaxt salatı",
+        "description": "Klassik Paytaxt (Olivye) salatı."
+      },
+      "greek": {
+        "name": "Yunan salatı",
+        "description": "Təzə tərəvəz və pendirlə Yunan salatı."
+      }
+    },
+    "coldAppetizers": {
+      "salmon": {
+        "name": "Az duzlu qızılbalıq",
+        "description": "Az duzlu qızılbalıq dilimləri."
+      },
+      "eggplantLevengi": {
+        "name": "Badımcan ləvəngi",
+        "description": "İçlik ilə doldurulmuş badımcan ləvəngi."
+      },
+      "eggplantRolls": {
+        "name": "Badımcan sarması",
+        "description": "İçlikli badımcan sarması."
+      },
+      "fishPlatter": {
+        "name": "Balıq çeşidləri",
+        "description": "Müxtəlif balıq növlərinin assortisi."
+      },
+      "picklesPlatter": {
+        "name": "Ev üsulu qarışıq turşu çeşidləri",
+        "description": "Ev üsulu qarışıq turşular."
+      },
+      "meatPlatter": {
+        "name": "Ət çeşidləri",
+        "description": "Müxtəlif ət növlərinin assortisi."
+      },
+      "mushroomSpinach": {
+        "name": "Göbələk ispanaq sous",
+        "description": "Souslu göbələk və ispanaq."
+      },
+      "olives": {
+        "name": "Marinə edilmiş zeytun çeşidi",
+        "description": "Marinə olunmuş zeytun seçimi."
+      },
+      "fruitPlatter": {
+        "name": "Meyvə assorti",
+        "description": "Mövsümi meyvələrin assortisi."
+      },
+      "pate": {
+        "name": "Paştet",
+        "description": "Evdə hazırlanmış paştet."
+      },
+      "cheeseEuro": {
+        "name": "Pendir çeşidləri (Avropa)",
+        "description": "Avropa pendirlərinin assortisi."
+      },
+      "cheeseLocal": {
+        "name": "Pendir çeşidləri (Yerli)",
+        "description": "Yerli pendirlərin assortisi."
+      },
+      "vegetableBouquet": {
+        "name": "Tərəvəz buketi",
+        "description": "Təzə tərəvəzlərdən ibarət buket."
+      }
+    },
+    "hotAppetizers": {
+      "blinMeat": {
+        "name": "Blinçik (ət)",
+        "description": "Ət içlikli blinçik."
+      },
+      "blinCheese": {
+        "name": "Blinçik (kəsmik)",
+        "description": "Kəsmik içlikli blinçik."
+      },
+      "nuggets": {
+        "name": "Nuggets (kartof ilə)",
+        "description": "Kartof ilə təqdim olunan nuggets."
+      },
+      "chickenWings": {
+        "name": "Toyuq qanad (kartof ilə)",
+        "description": "Kartof ilə toyuq qanadları."
+      }
+    },
+    "fish": {
+      "sturgeon": {
+        "name": "Osetrin balığı xəmirdə",
+        "description": "Xəmir içində bişirilmiş osetrin balığı."
+      },
+      "shrimpGuvech": {
+        "name": "Dəniz krevetkası güveç",
+        "description": "Güveçdə təqdim olunan dəniz krevetkası."
+      },
+      "doradoFri": {
+        "name": "Dorado izgara (fri ilə)",
+        "description": "Izgarada dorado, kartof fri ilə."
+      },
+      "doradoVeg": {
+        "name": "Dorado izgara (tərəvəz ilə)",
+        "description": "Izgarada dorado, tərəvəz ilə."
+      },
+      "troutVeg": {
+        "name": "Forel izgara (tərəvəz ilə)",
+        "description": "Izgarada forel, tərəvəz ilə."
+      },
+      "troutFried": {
+        "name": "Forel qızartma",
+        "description": "Qızardılmış forel balığı."
+      },
+      "kutumFried": {
+        "name": "Kütüm qızartma bütöv (800 qr)",
+        "description": "Bütöv qızardılmış kütüm balığı."
+      },
+      "kutumLevengi": {
+        "name": "Kütüm sümüksüz ləvəngi bütöv",
+        "description": "Sümüksüz ləvəngili bütöv kütüm."
+      },
+      "sturgeonCherry": {
+        "name": "Nərə balıq albalı-zoğal sous",
+        "description": "Albalı-zoğal sousunda nərə balıq."
+      },
+      "sudak": {
+        "name": "Sudak qızartma",
+        "description": "Qızardılmış sudak balığı."
+      }
+    },
+    "pasta": {
+      "alfredo": {
+        "name": "Fetuçini Alfredo",
+        "description": "Qaymaqlı Alfredo sousu ilə fettuçini."
+      },
+      "arrabbiata": {
+        "name": "Penne Arrabbiata",
+        "description": "Acılı tomat souslu penne."
+      },
+      "rigatoni": {
+        "name": "Rigatoni pasta",
+        "description": "Souslu rigatoni pasta."
+      },
+      "carbonara": {
+        "name": "Spagetti Carbonara",
+        "description": "Klassik carbonara souslu spagetti."
+      }
+    },
+    "hotMeals": {
+      "buglama": {
+        "name": "Buğlama",
+        "description": "Buxarda bişirilmiş ət və tərəvəz."
+      },
+      "medallionRice": {
+        "name": "Dana əti medalyon (düyü)",
+        "description": "Düyü ilə dana əti medalyonları."
+      },
+      "medallionPotato": {
+        "name": "Dana əti medalyon (kartof)",
+        "description": "Kartof ilə dana əti medalyonları."
+      },
+      "shepherdRoast": {
+        "name": "Çoban qovurma",
+        "description": "Ət və tərəvəzlə çoban qovurma."
+      },
+      "dolmaVeg": {
+        "name": "Dolma (tərəvəz)",
+        "description": "Tərəvəz dolması."
+      },
+      "dolmaLeaf": {
+        "name": "Dolma (yarpaq)",
+        "description": "Yarpaq dolması."
+      },
+      "jigo": {
+        "name": "Cigo",
+        "description": "Bişirilmiş quzu budu - cigo."
+      },
+      "lambPomegranate": {
+        "name": "Quzu əti nar soğan",
+        "description": "Nar və soğan ilə quzu əti."
+      },
+      "beefLanget": {
+        "name": "Langet (dana əti)",
+        "description": "Dana ətindən langet."
+      },
+      "juicyLamb": {
+        "name": "Şirəli quzu macası",
+        "description": "Şirəli quzu yeməyi."
+      },
+      "cherryBeef": {
+        "name": "Vişnəli can əti",
+        "description": "Vişnə sousunda can əti."
+      },
+      "kefliLamb": {
+        "name": "Kefli Quzu",
+        "description": "Xüsusi üsulla bişmiş kefli quzu."
+      },
+      "kefliChicken": {
+        "name": "Kefli beçə",
+        "description": "Xüsusi üsulla bişmiş kefli beçə."
+      },
+      "tabaka": {
+        "name": "Tabaka kənd çolpası",
+        "description": "Tabaka üsulu kənd çolpası."
+      },
+      "chickenLangetRice": {
+        "name": "Toyuq langet (düyü ilə)",
+        "description": "Düyü ilə toyuq langet."
+      },
+      "chickenLangetFri": {
+        "name": "Toyuq langet (fri ilə)",
+        "description": "Kartof fri ilə toyuq langet."
+      }
+    },
+    "saj": {
+      "beefSaj": {
+        "name": "Sac dana əti",
+        "description": "Sacda bişirilmiş dana əti və tərəvəz."
+      },
+      "lambSaj": {
+        "name": "Sac quzu (2 nəfərlik)",
+        "description": "İki nəfərlik sac quzu."
+      },
+      "chickenSaj": {
+        "name": "Sac toyuq kənd çolpası",
+        "description": "Sacda kənd çolpası."
+      }
+    },
+    "plov": {
+      "fisincan": {
+        "name": "Fisincan plov",
+        "description": "Fisincan ilə plov."
+      },
+      "sebzi": {
+        "name": "Səbzi plov",
+        "description": "Göyərtili səbzi plov."
+      },
+      "shuyud": {
+        "name": "Şüyüdlü plov",
+        "description": "Şüyüd ilə plov."
+      },
+      "tursuQovurma": {
+        "name": "Turşu qovurma plov",
+        "description": "Turşu qovurma ilə plov."
+      }
+    },
+    "kebabs": {
+      "whitefishGrid": {
+        "name": "Ağ balıq setkada",
+        "description": "Setkada bişirilmiş ağ balıq."
+      },
+      "antrikot": {
+        "name": "Antrikot kababı",
+        "description": "Antrikot ətindən kabab."
+      },
+      "beefBasdirma": {
+        "name": "Dana basdırma",
+        "description": "Dana ətindən basdırma."
+      },
+      "potatoEmber": {
+        "name": "Kartof külləmə",
+        "description": "Küldə bişirilmiş kartof."
+      },
+      "potatoLule": {
+        "name": "Kartof lülə",
+        "description": "Lülə şəklində kartof."
+      },
+      "chickenGrid": {
+        "name": "Kənd çolpası setka",
+        "description": "Setkada kənd çolpası."
+      },
+      "lambBasdirma": {
+        "name": "Quzu basdırma",
+        "description": "Quzu ətindən basdırma."
+      },
+      "lambTike": {
+        "name": "Quzu tikə kabab",
+        "description": "Quzu ətindən tikə kabab."
+      },
+      "luleKebab": {
+        "name": "Lülə kabab",
+        "description": "Çəkilmiş ətdən lülə kabab."
+      },
+      "sturgeonKebab": {
+        "name": "Nərə balığı kabab",
+        "description": "Nərə balığından kabab."
+      },
+      "hunter": {
+        "name": "Ovçu lüləsi (dana ətindən)",
+        "description": "Dana ətindən ovçu lüləsi."
+      },
+      "vegetableKebab": {
+        "name": "Tərəvəz kababı",
+        "description": "Manqalda tərəvəz kababı."
+      },
+      "chickenKebab": {
+        "name": "Toyuq kababı",
+        "description": "Toyuq ətindən kabab."
+      }
+    },
+    "tandir": {
+      "lambBasket": {
+        "name": "Quzu səbəti təndirdə",
+        "description": "Təndirdə bişirilmiş quzu səbəti."
+      },
+      "lambShoulder": {
+        "name": "Quzu qolu təndirdə",
+        "description": "Təndirdə quzu qolu."
+      },
+      "lambLeg": {
+        "name": "Quzu budu təndirdə",
+        "description": "Təndirdə quzu budu."
+      },
+      "beefShapalaq": {
+        "name": "Dana şapalaq təndirdə",
+        "description": "Təndirdə dana şapalaq."
+      },
+      "chickenTandir": {
+        "name": "Kənd çolpası təndirdə",
+        "description": "Təndirdə kənd çolpası."
+      }
+    },
+    "garnishes": {
+      "rice": {
+        "name": "Düyü (sadə)",
+        "description": "Sadə və yüngül qarnir."
+      },
+      "homeFries": {
+        "name": "Ev sayağı qızardılmış kartof",
+        "description": "Ev üsulu qızardılmış kartof."
+      },
+      "fries": {
+        "name": "Kartof fri",
+        "description": "Xırt-xırt qızardılmış kartof fri."
+      },
+      "buckwheat": {
+        "name": "Qarabaşaq",
+        "description": "Qaynadılmış qarabaşaq."
+      },
+      "boiledVeg": {
+        "name": "Qarışıq tərəvəzlər (qaynadılmış)",
+        "description": "Qaynadılmış qarışıq tərəvəzlər."
+      },
+      "spaghetti": {
+        "name": "Spagetti",
+        "description": "Sadə spagetti qarniri."
+      }
+    },
+    "sauces": {
+      "ezme": {
+        "name": "Acılı əzmə",
+        "description": "Acılı əzmə sousu."
+      },
+      "babaganush": {
+        "name": "Babaqanuş",
+        "description": "Közlənmiş badımcandan babaqanuş."
+      },
+      "haydari": {
+        "name": "Haydari",
+        "description": "Qatıq əsaslı haydari sousu."
+      },
+      "hummus": {
+        "name": "Humus",
+        "description": "Noxuddan hazırlanmış humus."
+      },
+      "shakshuka": {
+        "name": "Şakşuka",
+        "description": "Tərəvəzli şakşuka."
+      }
+    },
+    "extras": {
+      "bread": {
+        "name": "Çörək",
+        "description": "Təzə çörək."
+      },
+      "iceCream": {
+        "name": "Dondurma",
+        "description": "Dondurma."
+      },
+      "ketchup": {
+        "name": "Ketçup",
+        "description": "Ketçup sousu."
+      },
+      "lemon": {
+        "name": "Limon",
+        "description": "Təzə limon dilimləri."
+      },
+      "mayo": {
+        "name": "Mayonez",
+        "description": "Mayonez sousu."
+      },
+      "blinSour": {
+        "name": "Şumardinski blinçik",
+        "description": "Smetana ilə blinçik."
+      }
+    }
+  },
+  "menuSwitch": {
+    "alacarte": "Əsas menyu",
+    "banquet": "Banket menyusu"
   },
   "sections": {
     "banquet": {

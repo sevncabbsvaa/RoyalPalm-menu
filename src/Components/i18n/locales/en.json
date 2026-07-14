@@ -2,7 +2,7 @@
   "brand": {
     "name": "Royal Palm",
     "tagline": "Restaurant",
-    "description": "An elegant atmosphere and a rich culinary experience in the heart of Baku."
+    "description": "A royal taste experience blending Eastern and Mediterranean flavours with refined presentation."
   },
   "footer": {
     "hoursLabel": "Opening hours",
@@ -12,6 +12,488 @@
     "addressLine1": "Baku, Sabail district",
     "addressLine2": "Shikhov settlement",
     "serviceNote": "Contact us for reservations"
+  },
+  "common": {
+    "noImage": "No image",
+    "descriptionFallback": "Details will be added soon."
+  },
+  "categories": {
+    "soups": "Soups",
+    "salads": "Salads",
+    "coldAppetizers": "Cold appetizers",
+    "hotAppetizers": "Hot appetizers",
+    "fish": "Fish",
+    "pasta": "Pasta",
+    "hotMeals": "Hot meals",
+    "saj": "Saj dishes",
+    "plov": "Plov",
+    "kebabs": "Kebabs",
+    "tandir": "Tandir dishes",
+    "garnishes": "Garnishes",
+    "sauces": "Sauces & meze",
+    "extras": "Extras"
+  },
+  "menu": {
+    "soups": {
+      "ushbere": {
+        "name": "Dushbara soup",
+        "description": "Tiny meat dumplings in clear broth."
+      },
+      "mushroom": {
+        "name": "Mushroom soup",
+        "description": "Soup made with fresh mushrooms."
+      },
+      "lentil": {
+        "name": "Lentil soup",
+        "description": "Traditional lentil soup."
+      },
+      "chicken": {
+        "name": "Chicken soup",
+        "description": "Classic soup made with chicken."
+      }
+    },
+    "salads": {
+      "bakuTomato": {
+        "name": "Baku tomato salad",
+        "description": "Salad with fresh Baku tomatoes."
+      },
+      "shepherd": {
+        "name": "Shepherd's salad",
+        "description": "Made with chopped fresh vegetables."
+      },
+      "tongue": {
+        "name": "Tongue salad in piquant sauce",
+        "description": "Tongue salad in a piquant sauce."
+      },
+      "rukola": {
+        "name": "Beef salad with rukola",
+        "description": "Beef salad with rukola leaves."
+      },
+      "gavurdagi": {
+        "name": "Gavurdagi salad",
+        "description": "Gavurdagi salad with roasted vegetables."
+      },
+      "crispyEggplant": {
+        "name": "Crispy eggplant salad",
+        "description": "Salad with crispy fried eggplant."
+      },
+      "caesarShrimp": {
+        "name": "Classic Caesar salad (shrimp)",
+        "description": "Classic Caesar salad with shrimp."
+      },
+      "caesarChicken": {
+        "name": "Classic Caesar salad (chicken)",
+        "description": "Classic Caesar salad with chicken."
+      },
+      "blackPlum": {
+        "name": "Black plum salad",
+        "description": "A distinctive salad with black plums."
+      },
+      "grill": {
+        "name": "Grilled salad",
+        "description": "Made with chargrilled vegetables."
+      },
+      "mimosa": {
+        "name": "Mimosa salad",
+        "description": "Classic Mimosa salad."
+      },
+      "chefSpecial": {
+        "name": "Chef's special salad",
+        "description": "The chef's signature salad."
+      },
+      "capital": {
+        "name": "Capital salad",
+        "description": "Classic Capital (Olivier) salad."
+      },
+      "greek": {
+        "name": "Greek salad",
+        "description": "Greek salad with fresh vegetables and cheese."
+      }
+    },
+    "coldAppetizers": {
+      "salmon": {
+        "name": "Lightly salted salmon",
+        "description": "Slices of lightly salted salmon."
+      },
+      "eggplantLevengi": {
+        "name": "Eggplant levengi",
+        "description": "Stuffed eggplant levengi."
+      },
+      "eggplantRolls": {
+        "name": "Eggplant rolls",
+        "description": "Stuffed eggplant rolls."
+      },
+      "fishPlatter": {
+        "name": "Fish platter",
+        "description": "An assortment of various fish."
+      },
+      "picklesPlatter": {
+        "name": "Homemade mixed pickles",
+        "description": "Homemade assorted pickles."
+      },
+      "meatPlatter": {
+        "name": "Meat platter",
+        "description": "An assortment of cured meats."
+      },
+      "mushroomSpinach": {
+        "name": "Mushroom & spinach in sauce",
+        "description": "Mushrooms and spinach in sauce."
+      },
+      "olives": {
+        "name": "Marinated olives",
+        "description": "A selection of marinated olives."
+      },
+      "fruitPlatter": {
+        "name": "Fruit platter",
+        "description": "An assortment of seasonal fruits."
+      },
+      "pate": {
+        "name": "Pâté",
+        "description": "Homemade pâté."
+      },
+      "cheeseEuro": {
+        "name": "Cheese platter (European)",
+        "description": "An assortment of European cheeses."
+      },
+      "cheeseLocal": {
+        "name": "Cheese platter (Local)",
+        "description": "An assortment of local cheeses."
+      },
+      "vegetableBouquet": {
+        "name": "Vegetable bouquet",
+        "description": "A bouquet of fresh vegetables."
+      }
+    },
+    "hotAppetizers": {
+      "blinMeat": {
+        "name": "Crepes (meat)",
+        "description": "Crepes with a meat filling."
+      },
+      "blinCheese": {
+        "name": "Crepes (cottage cheese)",
+        "description": "Crepes with a cottage cheese filling."
+      },
+      "nuggets": {
+        "name": "Nuggets (with fries)",
+        "description": "Nuggets served with fries."
+      },
+      "chickenWings": {
+        "name": "Chicken wings (with fries)",
+        "description": "Chicken wings served with fries."
+      }
+    },
+    "fish": {
+      "sturgeon": {
+        "name": "Sturgeon in pastry",
+        "description": "Sturgeon baked in pastry."
+      },
+      "shrimpGuvech": {
+        "name": "Sea shrimp casserole",
+        "description": "Sea shrimp served in a casserole."
+      },
+      "doradoFri": {
+        "name": "Grilled dorado (with fries)",
+        "description": "Grilled dorado with fries."
+      },
+      "doradoVeg": {
+        "name": "Grilled dorado (with vegetables)",
+        "description": "Grilled dorado with vegetables."
+      },
+      "troutVeg": {
+        "name": "Grilled trout (with vegetables)",
+        "description": "Grilled trout with vegetables."
+      },
+      "troutFried": {
+        "name": "Fried trout",
+        "description": "Pan-fried trout."
+      },
+      "kutumFried": {
+        "name": "Whole fried kutum (800 g)",
+        "description": "A whole fried kutum fish."
+      },
+      "kutumLevengi": {
+        "name": "Whole boneless kutum levengi",
+        "description": "Whole boneless kutum with levengi stuffing."
+      },
+      "sturgeonCherry": {
+        "name": "Sturgeon in cherry-cornelian sauce",
+        "description": "Sturgeon in cherry and cornelian cherry sauce."
+      },
+      "sudak": {
+        "name": "Fried pike-perch",
+        "description": "Pan-fried pike-perch."
+      }
+    },
+    "pasta": {
+      "alfredo": {
+        "name": "Fettuccine Alfredo",
+        "description": "Fettuccine in creamy Alfredo sauce."
+      },
+      "arrabbiata": {
+        "name": "Penne Arrabbiata",
+        "description": "Penne in spicy tomato sauce."
+      },
+      "rigatoni": {
+        "name": "Rigatoni pasta",
+        "description": "Rigatoni pasta in sauce."
+      },
+      "carbonara": {
+        "name": "Spaghetti Carbonara",
+        "description": "Spaghetti in classic carbonara sauce."
+      }
+    },
+    "hotMeals": {
+      "buglama": {
+        "name": "Buglama",
+        "description": "Steamed meat and vegetables."
+      },
+      "medallionRice": {
+        "name": "Beef medallion (rice)",
+        "description": "Beef medallions served with rice."
+      },
+      "medallionPotato": {
+        "name": "Beef medallion (potato)",
+        "description": "Beef medallions served with potato."
+      },
+      "shepherdRoast": {
+        "name": "Shepherd's roast",
+        "description": "Roast of meat and vegetables."
+      },
+      "dolmaVeg": {
+        "name": "Dolma (vegetable)",
+        "description": "Stuffed vegetable dolma."
+      },
+      "dolmaLeaf": {
+        "name": "Dolma (grape leaf)",
+        "description": "Stuffed grape leaf dolma."
+      },
+      "jigo": {
+        "name": "Jigo (lamb leg)",
+        "description": "Slow-cooked lamb leg."
+      },
+      "lambPomegranate": {
+        "name": "Lamb with pomegranate & onion",
+        "description": "Lamb with pomegranate and onion."
+      },
+      "beefLanget": {
+        "name": "Langet (beef)",
+        "description": "Beef langet."
+      },
+      "juicyLamb": {
+        "name": "Juicy lamb maca",
+        "description": "A juicy lamb dish."
+      },
+      "cherryBeef": {
+        "name": "Beef tenderloin with cherry",
+        "description": "Beef tenderloin in cherry sauce."
+      },
+      "kefliLamb": {
+        "name": "Kefli lamb",
+        "description": "Lamb cooked the kefli way."
+      },
+      "kefliChicken": {
+        "name": "Kefli young chicken",
+        "description": "Young chicken cooked the kefli way."
+      },
+      "tabaka": {
+        "name": "Tabaka farm chicken",
+        "description": "Farm chicken cooked tabaka-style."
+      },
+      "chickenLangetRice": {
+        "name": "Chicken langet (with rice)",
+        "description": "Chicken langet with rice."
+      },
+      "chickenLangetFri": {
+        "name": "Chicken langet (with fries)",
+        "description": "Chicken langet with fries."
+      }
+    },
+    "saj": {
+      "beefSaj": {
+        "name": "Beef saj",
+        "description": "Beef and vegetables cooked on a saj."
+      },
+      "lambSaj": {
+        "name": "Lamb saj (for 2)",
+        "description": "Lamb saj for two."
+      },
+      "chickenSaj": {
+        "name": "Farm chicken saj",
+        "description": "Farm chicken cooked on a saj."
+      }
+    },
+    "plov": {
+      "fisincan": {
+        "name": "Fisinjan plov",
+        "description": "Plov with fisinjan."
+      },
+      "sebzi": {
+        "name": "Sabzi plov",
+        "description": "Herb sabzi plov."
+      },
+      "shuyud": {
+        "name": "Dill plov",
+        "description": "Plov with dill."
+      },
+      "tursuQovurma": {
+        "name": "Pickled meat plov",
+        "description": "Plov with pickled-meat qovurma."
+      }
+    },
+    "kebabs": {
+      "whitefishGrid": {
+        "name": "White fish on the grid",
+        "description": "White fish grilled on a grid."
+      },
+      "antrikot": {
+        "name": "Entrecôte kebab",
+        "description": "Kebab from entrecôte."
+      },
+      "beefBasdirma": {
+        "name": "Beef basdirma",
+        "description": "Basdirma from beef."
+      },
+      "potatoEmber": {
+        "name": "Ember-roasted potato",
+        "description": "Potato roasted in embers."
+      },
+      "potatoLule": {
+        "name": "Potato lula",
+        "description": "Potato shaped as lula."
+      },
+      "chickenGrid": {
+        "name": "Farm chicken on the grid",
+        "description": "Farm chicken on a grid."
+      },
+      "lambBasdirma": {
+        "name": "Lamb basdirma",
+        "description": "Basdirma from lamb."
+      },
+      "lambTike": {
+        "name": "Lamb tike kebab",
+        "description": "Chunked lamb kebab."
+      },
+      "luleKebab": {
+        "name": "Lula kebab",
+        "description": "Minced-meat lula kebab."
+      },
+      "sturgeonKebab": {
+        "name": "Sturgeon kebab",
+        "description": "Kebab from sturgeon."
+      },
+      "hunter": {
+        "name": "Hunter's lula (beef)",
+        "description": "Hunter's lula from beef."
+      },
+      "vegetableKebab": {
+        "name": "Vegetable kebab",
+        "description": "Grilled vegetable kebab."
+      },
+      "chickenKebab": {
+        "name": "Chicken kebab",
+        "description": "Kebab from chicken."
+      }
+    },
+    "tandir": {
+      "lambBasket": {
+        "name": "Lamb basket in tandir",
+        "description": "Lamb basket cooked in a tandir."
+      },
+      "lambShoulder": {
+        "name": "Lamb shoulder in tandir",
+        "description": "Lamb shoulder in a tandir."
+      },
+      "lambLeg": {
+        "name": "Lamb leg in tandir",
+        "description": "Lamb leg in a tandir."
+      },
+      "beefShapalaq": {
+        "name": "Beef shapalaq in tandir",
+        "description": "Beef shapalaq in a tandir."
+      },
+      "chickenTandir": {
+        "name": "Farm chicken in tandir",
+        "description": "Farm chicken in a tandir."
+      }
+    },
+    "garnishes": {
+      "rice": {
+        "name": "Rice (plain)",
+        "description": "A simple, light garnish."
+      },
+      "homeFries": {
+        "name": "Home-style fried potato",
+        "description": "Home-style fried potatoes."
+      },
+      "fries": {
+        "name": "French fries",
+        "description": "Crispy french fries."
+      },
+      "buckwheat": {
+        "name": "Buckwheat",
+        "description": "Boiled buckwheat."
+      },
+      "boiledVeg": {
+        "name": "Mixed boiled vegetables",
+        "description": "Mixed boiled vegetables."
+      },
+      "spaghetti": {
+        "name": "Spaghetti",
+        "description": "A simple spaghetti garnish."
+      }
+    },
+    "sauces": {
+      "ezme": {
+        "name": "Spicy ezme",
+        "description": "Spicy ezme dip."
+      },
+      "babaganush": {
+        "name": "Baba ganoush",
+        "description": "Baba ganoush from roasted eggplant."
+      },
+      "haydari": {
+        "name": "Haydari",
+        "description": "Yogurt-based haydari dip."
+      },
+      "hummus": {
+        "name": "Hummus",
+        "description": "Chickpea hummus."
+      },
+      "shakshuka": {
+        "name": "Shakshuka",
+        "description": "Vegetable shakshuka."
+      }
+    },
+    "extras": {
+      "bread": {
+        "name": "Bread",
+        "description": "Fresh bread."
+      },
+      "iceCream": {
+        "name": "Ice cream",
+        "description": "Ice cream."
+      },
+      "ketchup": {
+        "name": "Ketchup",
+        "description": "Ketchup."
+      },
+      "lemon": {
+        "name": "Lemon",
+        "description": "Fresh lemon slices."
+      },
+      "mayo": {
+        "name": "Mayonnaise",
+        "description": "Mayonnaise."
+      },
+      "blinSour": {
+        "name": "Sour cream blini",
+        "description": "Blini with sour cream."
+      }
+    }
+  },
+  "menuSwitch": {
+    "alacarte": "Main Menu",
+    "banquet": "Banquet Menu"
   },
   "sections": {
     "banquet": {
